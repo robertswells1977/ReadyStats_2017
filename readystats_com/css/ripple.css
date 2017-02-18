@@ -1,0 +1,293 @@
+/* ==================================== BUTTONS ====================================*/
+/* generator */
+
+.ripple-btn {
+    position: relative;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    overflow: hidden;
+    vertical-align: middle;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    -webkit-background-origin: border-box;
+    background-origin: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+}
+
+.ripple-btn span {
+    position: relative;
+    z-index: 3;
+}
+
+.ripple-btn:hover:before {
+    background: -webkit-radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+    background: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+}
+
+.ripple-btn:active {
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* loop through @names-n-@colors */
+
+.btn-purple {
+    color: #ffffff;
+    background: #9966cb;
+    text-shadow: 0 1px 1px rgba(102, 51, 152, 0.75);
+    border-color: #8040be #8040be #663398;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a87dd3), to(#8a4fc3));
+    background-image: -webkit-linear-gradient(top, #a87dd3, #8a4fc3);
+    background-image: linear-gradient(to bottom, #a87dd3, #8a4fc3);
+}
+
+.btn-purple:active {
+    background: #9966cb;
+    border-color: #733aab #8040be #8040be;
+}
+
+.btn-darkblue {
+    color: #ffffff;
+    background: #3b5ca0;
+    text-shadow: 0 1px 1px rgba(32, 49, 85, 0.75);
+    border-color: #2d477b #2d477b #203155;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#4369b6), to(#334f8a));
+    background-image: -webkit-linear-gradient(top, #4369b6, #334f8a);
+    background-image: linear-gradient(to bottom, #4369b6, #334f8a);
+}
+
+.btn-darkblue:active {
+    background: #3b5ca0;
+    border-color: #263c68 #2d477b #2d477b;
+}
+
+.btn-gray {
+    color: #ffffff;
+    background: #47494f;
+    text-shadow: 0 1px 1px rgba(23, 23, 25, 0.75);
+    border-color: #2f3034 #2f3034 #171719;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#55585f), to(#393a3f));
+    background-image: -webkit-linear-gradient(top, #55585f, #393a3f);
+    background-image: linear-gradient(to bottom, #55585f, #393a3f);
+}
+
+.btn-gray:active {
+    background: #47494f;
+    border-color: #232427 #2f3034 #2f3034;
+}
+
+.btn-pink {
+    color: #ffffff;
+    background: #e8367f;
+    text-shadow: 0 1px 1px rgba(165, 19, 79, 0.75);
+    border-color: #d31865 #d31865 #a5134f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#eb5190), to(#e51b6e));
+    background-image: -webkit-linear-gradient(top, #eb5190, #e51b6e);
+    background-image: linear-gradient(to bottom, #eb5190, #e51b6e);
+}
+
+.btn-pink:active {
+    background: #e8367f;
+    border-color: #bc165a #d31865 #d31865;
+}
+
+.btn-orange {
+    color: #ffffff;
+    background: #f4902a;
+    text-shadow: 0 1px 1px rgba(175, 93, 9, 0.75);
+    border-color: #df770c #df770c #af5d09;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f69f47), to(#f2810d));
+    background-image: -webkit-linear-gradient(top, #f69f47, #f2810d);
+    background-image: linear-gradient(to bottom, #f69f47, #f2810d);
+}
+
+.btn-orange:active {
+    background: #f4902a;
+    border-color: #c76a0a #df770c #df770c;
+}
+
+.btn-blue {
+    color: #ffffff;
+    background: #1097e6;
+    text-shadow: 0 1px 1px rgba(9, 88, 135, 0.75);
+    border-color: #0d78b6 #0d78b6 #095887;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#25a5f0), to(#0e84c9));
+    background-image: -webkit-linear-gradient(top, #25a5f0, #0e84c9);
+    background-image: linear-gradient(to bottom, #25a5f0, #0e84c9);
+}
+
+.btn-blue:active {
+    background: #1097e6;
+    border-color: #0b689e #0d78b6 #0d78b6;
+}
+
+.btn-red {
+    color: #ffffff;
+    background: #d5452f;
+    text-shadow: 0 1px 1px rgba(131, 40, 27, 0.75);
+    border-color: #ae3623 #ae3623 #83281b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#da5c48), to(#bf3b27));
+    background-image: -webkit-linear-gradient(top, #da5c48, #bf3b27);
+    background-image: linear-gradient(to bottom, #da5c48, #bf3b27);
+}
+
+.btn-red:active {
+    background: #d5452f;
+    border-color: #992f1f #ae3623 #ae3623;
+}
+
+.btn-green {
+    color: #ffffff;
+    background: #5ca934;
+    text-shadow: 0 1px 1px rgba(50, 91, 28, 0.75);
+    border-color: #478228 #478228 #325b1c;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#69c03b), to(#4f922d));
+    background-image: -webkit-linear-gradient(top, #69c03b, #4f922d);
+    background-image: linear-gradient(to bottom, #69c03b, #4f922d);
+}
+
+.btn-green:active {
+    background: #5ca934;
+    border-color: #3c6e22 #478228 #478228;
+}
+
+/* groups */
+
+.ripple-btn-group {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 0.001px;
+    white-space: nowrap;
+}
+
+.ripple-btn-group > * {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.ripple-btn-group > .ripple-btn:not(:first-child):not(:last-child),
+.ripple-btn-group > div:not(:first-child):not(:last-child) .ripple-btn { border-radius: 0; }
+
+.ripple-btn-group > .ripple-btn:first-child,
+.ripple-btn-group > div:first-child .ripple-btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.ripple-btn-group > .ripple-btn:last-child,
+.ripple-btn-group > div:last-child .ripple-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.ripple-btn-group > .ripple-btn:nth-child(n+2),
+.ripple-btn-group > div:nth-child(n+2) .ripple-btn { margin-left: -1px; }
+
+.ripple-btn-group:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/* ripple element styling */
+
+.circle {
+    position: absolute;
+    z-index: 2;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    width: 130px;
+    height: 130px;
+    -webkit-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    transform: scale(0.2);
+    border-radius: 50%;
+    -webkit-animation: scale-circle 2.5s;
+    animation: scale-circle 2.5s;
+    -webkit-animation-fill-mode: forward;
+    animation-fill-mode: forward;
+}
+
+/* ripple element color styling */
+
+.dark-ripples > .circle {
+    background-image: -webkit-radial-gradient(center, ellipse, rgba(51, 51, 51, 0.2) 0%, rgba(51, 51, 51, 0) 5%, rgba(51, 51, 51, 0.2) 6%, rgba(51, 51, 51, 0.2) 10%, rgba(51, 51, 51, 0) 11%, rgba(51, 51, 51, 0) 15%, rgba(51, 51, 51, 0.2) 16%, rgba(51, 51, 51, 0.2) 20%, rgba(51, 51, 51, 0) 21%, rgba(51, 51, 51, 0) 25%, rgba(51, 51, 51, 0.2) 26%, rgba(51, 51, 51, 0.2) 30%, rgba(51, 51, 51, 0) 31%, rgba(51, 51, 51, 0) 34%, rgba(51, 51, 51, 0.2) 35%, rgba(51, 51, 51, 0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(51, 51, 51, 0.2) 0%, rgba(51, 51, 51, 0) 5%, rgba(51, 51, 51, 0.2) 6%, rgba(51, 51, 51, 0.2) 10%, rgba(51, 51, 51, 0) 11%, rgba(51, 51, 51, 0) 15%, rgba(51, 51, 51, 0.2) 16%, rgba(51, 51, 51, 0.2) 20%, rgba(51, 51, 51, 0) 21%, rgba(51, 51, 51, 0) 25%, rgba(51, 51, 51, 0.2) 26%, rgba(51, 51, 51, 0.2) 30%, rgba(51, 51, 51, 0) 31%, rgba(51, 51, 51, 0) 34%, rgba(51, 51, 51, 0.2) 35%, rgba(51, 51, 51, 0) 100%);
+}
+
+.light-ripples > .circle {
+    background-image: -webkit-radial-gradient(center, ellipse, rgba(236, 239, 241, 0.2) 0%, rgba(236, 239, 241, 0) 5%, rgba(236, 239, 241, 0.2) 6%, rgba(236, 239, 241, 0.2) 10%, rgba(236, 239, 241, 0) 11%, rgba(236, 239, 241, 0) 15%, rgba(236, 239, 241, 0.2) 16%, rgba(236, 239, 241, 0.2) 20%, rgba(236, 239, 241, 0) 21%, rgba(236, 239, 241, 0) 25%, rgba(236, 239, 241, 0.2) 26%, rgba(236, 239, 241, 0.2) 30%, rgba(236, 239, 241, 0) 31%, rgba(236, 239, 241, 0) 34%, rgba(236, 239, 241, 0.2) 35%, rgba(236, 239, 241, 0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(236, 239, 241, 0.2) 0%, rgba(236, 239, 241, 0) 5%, rgba(236, 239, 241, 0.2) 6%, rgba(236, 239, 241, 0.2) 10%, rgba(236, 239, 241, 0) 11%, rgba(236, 239, 241, 0) 15%, rgba(236, 239, 241, 0.2) 16%, rgba(236, 239, 241, 0.2) 20%, rgba(236, 239, 241, 0) 21%, rgba(236, 239, 241, 0) 25%, rgba(236, 239, 241, 0.2) 26%, rgba(236, 239, 241, 0.2) 30%, rgba(236, 239, 241, 0) 31%, rgba(236, 239, 241, 0) 34%, rgba(236, 239, 241, 0.2) 35%, rgba(236, 239, 241, 0) 100%);
+}
+
+.blue-ripples > .circle {
+    background-image: -webkit-radial-gradient(center, ellipse, rgba(1, 87, 155, 0.7) 0%, rgba(1, 87, 155, 0) 5%, rgba(1, 87, 155, 0.7) 6%, rgba(1, 87, 155, 0.7) 10%, rgba(1, 87, 155, 0) 11%, rgba(1, 87, 155, 0) 15%, rgba(1, 87, 155, 0.7) 16%, rgba(1, 87, 155, 0.7) 20%, rgba(1, 87, 155, 0) 21%, rgba(1, 87, 155, 0) 25%, rgba(1, 87, 155, 0.7) 26%, rgba(1, 87, 155, 0.7) 30%, rgba(1, 87, 155, 0) 31%, rgba(1, 87, 155, 0) 34%, rgba(1, 87, 155, 0.7) 35%, rgba(1, 87, 155, 0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(1, 87, 155, 0.7) 0%, rgba(1, 87, 155, 0) 5%, rgba(1, 87, 155, 0.7) 6%, rgba(1, 87, 155, 0.7) 10%, rgba(1, 87, 155, 0) 11%, rgba(1, 87, 155, 0) 15%, rgba(1, 87, 155, 0.7) 16%, rgba(1, 87, 155, 0.7) 20%, rgba(1, 87, 155, 0) 21%, rgba(1, 87, 155, 0) 25%, rgba(1, 87, 155, 0.7) 26%, rgba(1, 87, 155, 0.7) 30%, rgba(1, 87, 155, 0) 31%, rgba(1, 87, 155, 0) 34%, rgba(1, 87, 155, 0.7) 35%, rgba(1, 87, 155, 0) 100%);
+}
+
+.red-ripples > .circle {
+    background-image: -webkit-radial-gradient(center, ellipse, rgba(176, 18, 10, 0.7) 0%, rgba(176, 18, 10, 0) 5%, rgba(176, 18, 10, 0.7) 6%, rgba(176, 18, 10, 0.7) 10%, rgba(176, 18, 10, 0) 11%, rgba(176, 18, 10, 0) 15%, rgba(176, 18, 10, 0.7) 16%, rgba(176, 18, 10, 0.7) 20%, rgba(176, 18, 10, 0) 21%, rgba(176, 18, 10, 0) 25%, rgba(176, 18, 10, 0.7) 26%, rgba(176, 18, 10, 0.7) 30%, rgba(176, 18, 10, 0) 31%, rgba(176, 18, 10, 0) 34%, rgba(176, 18, 10, 0.7) 35%, rgba(176, 18, 10, 0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(176, 18, 10, 0.7) 0%, rgba(176, 18, 10, 0) 5%, rgba(176, 18, 10, 0.7) 6%, rgba(176, 18, 10, 0.7) 10%, rgba(176, 18, 10, 0) 11%, rgba(176, 18, 10, 0) 15%, rgba(176, 18, 10, 0.7) 16%, rgba(176, 18, 10, 0.7) 20%, rgba(176, 18, 10, 0) 21%, rgba(176, 18, 10, 0) 25%, rgba(176, 18, 10, 0.7) 26%, rgba(176, 18, 10, 0.7) 30%, rgba(176, 18, 10, 0) 31%, rgba(176, 18, 10, 0) 34%, rgba(176, 18, 10, 0.7) 35%, rgba(176, 18, 10, 0) 100%);
+}
+
+.green-ripples > .circle {
+    background-image: -webkit-radial-gradient(center, ellipse, rgba(5, 111, 0, 0.7) 0%, rgba(5, 111, 0, 0) 5%, rgba(5, 111, 0, 0.7) 6%, rgba(5, 111, 0, 0.7) 10%, rgba(5, 111, 0, 0) 11%, rgba(5, 111, 0, 0) 15%, rgba(5, 111, 0, 0.7) 16%, rgba(5, 111, 0, 0.7) 20%, rgba(5, 111, 0, 0) 21%, rgba(5, 111, 0, 0) 25%, rgba(5, 111, 0, 0.7) 26%, rgba(5, 111, 0, 0.7) 30%, rgba(5, 111, 0, 0) 31%, rgba(5, 111, 0, 0) 34%, rgba(5, 111, 0, 0.7) 35%, rgba(5, 111, 0, 0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(5, 111, 0, 0.7) 0%, rgba(5, 111, 0, 0) 5%, rgba(5, 111, 0, 0.7) 6%, rgba(5, 111, 0, 0.7) 10%, rgba(5, 111, 0, 0) 11%, rgba(5, 111, 0, 0) 15%, rgba(5, 111, 0, 0.7) 16%, rgba(5, 111, 0, 0.7) 20%, rgba(5, 111, 0, 0) 21%, rgba(5, 111, 0, 0) 25%, rgba(5, 111, 0, 0.7) 26%, rgba(5, 111, 0, 0.7) 30%, rgba(5, 111, 0, 0) 31%, rgba(5, 111, 0, 0) 34%, rgba(5, 111, 0, 0.7) 35%, rgba(5, 111, 0, 0) 100%);
+}
+
+.orange-ripples > .circle {
+    background-image: -webkit-radial-gradient(center, ellipse, rgba(230, 81, 0, 0.7) 0%, rgba(230, 81, 0, 0) 5%, rgba(230, 81, 0, 0.7) 6%, rgba(230, 81, 0, 0.7) 10%, rgba(230, 81, 0, 0) 11%, rgba(230, 81, 0, 0) 15%, rgba(230, 81, 0, 0.7) 16%, rgba(230, 81, 0, 0.7) 20%, rgba(230, 81, 0, 0) 21%, rgba(230, 81, 0, 0) 25%, rgba(230, 81, 0, 0.7) 26%, rgba(230, 81, 0, 0.7) 30%, rgba(230, 81, 0, 0) 31%, rgba(230, 81, 0, 0) 34%, rgba(230, 81, 0, 0.7) 35%, rgba(230, 81, 0, 0) 100%);
+    background-image: radial-gradient(ellipse at center, rgba(230, 81, 0, 0.7) 0%, rgba(230, 81, 0, 0) 5%, rgba(230, 81, 0, 0.7) 6%, rgba(230, 81, 0, 0.7) 10%, rgba(230, 81, 0, 0) 11%, rgba(230, 81, 0, 0) 15%, rgba(230, 81, 0, 0.7) 16%, rgba(230, 81, 0, 0.7) 20%, rgba(230, 81, 0, 0) 21%, rgba(230, 81, 0, 0) 25%, rgba(230, 81, 0, 0.7) 26%, rgba(230, 81, 0, 0.7) 30%, rgba(230, 81, 0, 0) 31%, rgba(230, 81, 0, 0) 34%, rgba(230, 81, 0, 0.7) 35%, rgba(230, 81, 0, 0) 100%);
+}
+@-webkit-keyframes
+scale-circle {  0 {
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    opacity: 0.4;
+}
+70% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+}
+}
+@keyframes
+scale-circle {  0 {
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    opacity: 0.4;
+}
+70% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+}
+}

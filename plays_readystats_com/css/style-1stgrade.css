@@ -1,0 +1,117 @@
+
+
+#result, table, td, div{
+    font-size:.9em;
+    font-family: arial;
+}
+table
+div#move_choice div.animate_speed {
+    width:120px;
+    font-size:20pt;
+    font-weight:bolder;
+    cursor:pointer;
+    background-color:orange;
+    margin: 10px;
+}
+div#move_choice div.animate_speed:hover {
+    border:1px solid #000;
+    background-color:orange;
+}
+div#move_choice{
+    width:120px;
+    font-size:18pt;
+    font-weight:bolder;
+    cursor:pointer;
+    background-color:orange;
+    margin: 10px;
+}
+
+div#pagetitle{
+    position:absolute;
+    top:7px;
+    left:7px;
+    font-weight: bolder;
+    font-family: Helvetica, Arial, sans-serif;
+    color:white;
+    font-size: 14pt;
+    border: solid 2px darkblue;
+    padding:2px;
+    border-radius: 5px;
+    background-color:blue;
+}
+div#playname{
+    text-align:center;
+    padding:4px;
+    border:1px solid #000;
+    height:20px;
+    width:170px;
+    top:25px;
+    right:40px;
+    position: absolute;
+    color:#ffffff;
+    background-color:#c9302c;
+    border-radius:3px;
+    font-size:10pt;
+    font-weight: bolder;
+}
+
+div.player {
+    font-size:16pt;
+    text-align:center;
+    vertical-align: middle;
+    width:40px;
+    border:4px solid;
+    border-radius:100px;
+    background-color:blue;
+    position:absolute;
+    left:45px;
+    top:100px;
+    color:#ddd;
+    border-color:darkblue;
+    cursor:move;
+}
+div.opponent{
+    border-color: black;
+    background-color:black;
+    color:white;
+}
+div#ball {
+    width:35px;
+    height:40px;
+    font-size:0pt;
+    border:0px dotted;
+    border-radius:25px;
+    border-color: black;
+    color: black;
+    background-color:transparent;
+    background-image: url('../img/basketball4th.png');
+}
+.small-button {
+    font-size: .8em !important;
+}
+.ui-button-text-only .ui-button-text {
+    font-size: .7em !important;
+    padding: 0px 0px 0px 0px;
+}
+.inout{
+    padding:10px;
+    position: absolute;
+    width:100px;
+    height:15px;
+    background-color: #000000;
+    color:#ffffff;
+    text-align: center;
+    font-size:10pt;
+    font-weight: bolder;
+    border:1px solid #ffffff;
+    border-radius: 10px;
+}
+#gamefield{
+    position:relative;
+    background-image: url('../fields/BasketballHalfCourt.png');
+    background-repeat: no-repeat;
+    height:510px;
+    width:675px;
+    background-position: 10px;
+    background-size:90%;
+}

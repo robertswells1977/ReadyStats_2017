@@ -1,0 +1,82 @@
+
+
+#result, table, td, div{
+    font-size:.9em;
+    font-family: arial;
+}
+table
+div#move_choice div.animate_speed {
+    width:45px;
+    font-size:14pt;
+    cursor:pointer;
+    background-color:#fff;
+    margin: 2px;
+}
+div#move_choice div.animate_speed:hover {
+    border:1px solid #000;
+    background-color:#fff;
+}
+div#move_choice{
+    background-color:#fff;
+    width:100px;
+    font-size:14pt;
+    cursor:pointer;
+    background-color:#fff;
+    margin: 2px;
+}
+
+div.player {
+    text-align:center;
+    vertical-align:middle;
+    width:110px;
+    height:50px;
+    border:2px solid;
+    border-radius:25px;
+    position: absolute;
+    left:1px;
+    color:#000;
+    border-color:#888;
+    cursor:move;
+    z-index: 99;
+    font-size: 10pt;
+    font-weight: bold;
+}
+div#ball {
+    width:20px;
+    height:20px;
+    font-size:0pt;
+    border:0px dotted;
+    border-radius:25px;
+    border-color: black;
+    color: black;
+    background-image: url('../img/soccer-ball.png');
+}
+.small-button {
+    font-size: .8em !important;
+}
+.ui-button-text-only .ui-button-text {
+    font-size: .7em !important;
+    padding: 0px 0px 0px 0px;
+}
+.inout{
+    padding:10px;
+    position: absolute;
+    width:100px;
+    height:15px;
+    background-color: #000000;
+    color:#ffffff;
+    text-align: center;
+    font-size:10pt;
+    font-weight: bolder;
+    border:1px solid #ffffff;
+    border-radius: 10px;
+}
+#gamefield{
+    position:relative;
+    background-image: url('../fields/Basketball.png');
+    background-repeat: no-repeat;
+    height:510px;
+    width:675px;
+    background-position: 10px;
+    background-size:90%;
+}
