@@ -373,6 +373,10 @@ function getPlayerList()
             playername = playnum +" "+(data[i]).FirstName + " " + String((String((data[i]).LastName).split(''))[0]);
             playerDivid = (data[i]).PlayerID;
 
+            // override for tomorrow's game
+            playername = (data[i]).FirstName;
+
+
             //store player data
             $("#playerdata").data('player_'+playerDivid, data[i]);
 
@@ -387,9 +391,9 @@ function getPlayerList()
             {
                 if(parseInt((data[i]).isPlayerIn,10) == 0)
                 {
-                    $("#PlayerOut").append(" <li class='ui-corner player' id='player_"+playerDivid+"'>"+playername+"</li>");
+                    $("#PlayerOut").append(" <li class='ui-corner player' id='player_"+playerDivid+"'><div class='playercontainer'><span class='playertext'>"+playername+"</span></div></li>");
                 }else{
-                    $("#PlayerIn").append(" <li class='ui-corner player' id='player_"+playerDivid+"'>"+playername+"</li>");
+                    $("#PlayerIn").append(" <li class='ui-corner player' id='player_"+playerDivid+"'><div class='playercontainer'><span class='playertext'>"+playername+"</span></div></li>");
                 }
             }//isnot opponent
         }//for
@@ -549,6 +553,10 @@ function getReport()
 
                 case 15: // made FT shot
                     $player.points += $value;
+                    if($respItem.playerid != 1000)
+                    {
+                        $teamReport.points += $value;
+                    }
                     break;
 
                 case 2: // missed shot

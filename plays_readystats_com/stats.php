@@ -105,15 +105,16 @@ if(!empty($_REQUEST["m"]))
             </div>
             <div class="statContainer" style="position: relative;">
                         <ul class="StatsDrop">
-                            <li><div class="stat" id="stat_1" >FG Made</div></li>
-                            <li><div class="stat" id="stat_2" >FG Missed</div></li>
-                            <li><div class="stat" id="stat_8" >Rebound</div></li>
-                            <li><div class="stat" id="stat_7">Steal</div></li>
-                            <li><div class="stat" id="stat_6">Turnover</div></li>
-                            <li><div class="stat" id="stat_4">Fouled</div></li>
-                            <li><div class="stat" id="stat_19">3-PT Made</div></li>
-                            <li><div class="stat" id="stat_15">Made FT</div></li>
-                            <li><div class="stat" id="stat_16">Miss FT</div></li>
+                            <li><div class="stat" id="stat_1" ><span class="stattext">FG Made</span></div></li>
+                            <li><div class="stat" id="stat_2" ><span class="stattext">FG Missed</span></div></li>
+                            <li><div class="stat" id="stat_8" ><span class="stattext">Rebound</span></div></li>
+                            <li><div class="stat" id="stat_3"><span class="stattext">Assist</span></div></li>
+                            <li><div class="stat" id="stat_7"><span class="stattext">Steal</span></div></li>
+                            <li><div class="stat" id="stat_6"><span class="stattext">Turnover</span></div></li>
+                            <li><div class="stat" id="stat_4"><span class="stattext">Fouled</span></div></li>
+                            <li><div class="stat" id="stat_19"><span class="stattext">3-PT Made</span></div></li>
+                            <li><div class="stat" id="stat_15"><span class="stattext">Made FT</span></div></li>
+                            <li><div class="stat" id="stat_16"><span class="stattext">Miss FT</span></div></li>
                         </ul>
                 </div>
         </div>
