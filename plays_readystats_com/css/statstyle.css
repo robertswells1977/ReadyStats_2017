@@ -1,3 +1,89 @@
+.playerHighlight{
+    border:2px solid red;
+}
+td{
+    vertical-align: middle;
+    top:50%;
+}
+.player{
+    font-size:9pt;
+    font-weight:normal;
+    padding-top: 1.8em;
+    z-index: 99;
+}
+.PlayerIn li.opponent{
+    height:40px;
+    width: 40px;
+    color: #fff;
+    background-color: #222;
+    border:3px solid #000;
+    border-radius: 40px;
+    z-index: 99;
+    font-size:14pt;
+    font-weight: bolder;
+    padding-top: 0.8em;
+}
+.stat-hover{
+    border: 1px dotted #f00;
+    background-color: #eee;
+    color:#f00;
+}
+.stat-accepted{
+    border: 3px dotted #002a80;
+    background-color: #ffff00;
+    color:#002a80;
+}
+.opponent{
+    background-color: #888;
+    z-index: 100;
+}
+tr.gamelogrow{
+    height:20px;
+    width:100%;
+}
+tr.gamelogrow-a{background-color: #aaa;}
+tr.gamelogrow-b{background-color: #fff;}
+
+div#report table td{
+    border:1px solid #aaa;
+    font-size: 10pt;
+    text-align:left;
+    font-weight: bolder;
+    background-color: #fff;
+    color: #333;
+}
+div#report table th{
+    border:0px solid #888;
+    font-size: 8pt;
+    font-weight: bolder;
+    text-align:center;
+    background-color: transparent;
+}
+
+div#report table th.teamname, div#report table th.playername{
+    border:1px solid #888;
+    font-size: 12pt;
+    font-weight: bolder;
+    text-align:left;
+    color:#000;
+    background-color: #fff;
+}
+div#report table th.teamname{
+    border:1px solid #888;
+    font-size: 12pt;
+    font-weight: bolder;
+    text-align:left;
+    color:#aaa;
+    background-color: #000;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #888;
+    margin: 1em 0;
+    padding: 0;
+}
 
 #PlayerOut {
     float: left;
